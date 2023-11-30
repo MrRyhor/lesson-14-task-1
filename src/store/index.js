@@ -1,9 +1,10 @@
 import { createStore } from 'vuex'
+import products from './modules/products'
+import supliers from './modules/supliers'
 
 export default createStore({
-    state: {},
-    getters: {},
-    mutations: {},
-    actions: {},
-    modules: {},
+    modules: {
+        products,
+        supliers,
+    },
 })
