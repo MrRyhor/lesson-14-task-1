@@ -7,9 +7,7 @@
         <template #right-block>
             <div class="owner-container">
                 <h2>Owner: Baba Galya</h2>
-                <img
-                    src="http://batona.net/uploads/posts/2013-07/1375075418_013.jpeg"
-                />
+                <img src="https://i.pinimg.com/736x/50/bb/bb/50bbbb065f1abeb98a7fa948adb02bdc.jpg" />
             </div>
         </template>
     </main-master-page>
@@ -24,14 +22,14 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-    .owner-container{
-        display: flex;
-        align-items: center;
-        gap: 10px;
+.owner-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
-        &>img{
-            width: 150px;
-            height: 150px;
-        }
+    & > img {
+        width: 150px;
+        height: 150px;
     }
+}
 </style>
